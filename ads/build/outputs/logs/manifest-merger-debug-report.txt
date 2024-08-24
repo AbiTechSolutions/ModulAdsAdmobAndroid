@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+		INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:7:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:8:22-76
+application
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:10:5-26:19
+	android:networkSecurityConfig
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:10:18-78
+receiver#com.adjust.sdk.AdjustReferrerReceiver
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:11:9-18:20
+	android:exported
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:13:13-36
+	android:permission
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:14:13-69
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:12:13-65
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:15:13-17:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:16:17-79
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:16:25-76
+meta-data#com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:20:9-22:36
+	android:value
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:22:13-33
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:21:13-83
+meta-data#com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING
+ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:23:9-25:36
+	android:value
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:25:13-33
+	android:name
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml:24:13-79
+uses-sdk
+INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+		INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+		ADDED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml
+		INJECTED from D:\BBL\Ads Modul\ModulAdsAdmobAndroid\ads\src\main\AndroidManifest.xml

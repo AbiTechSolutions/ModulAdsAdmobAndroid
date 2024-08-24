@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_tint_switch_track.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_color_highlight_material.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_tint_seek_thumb.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_tint_edittext.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_tint_spinner.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_btn_colored_text_material.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_tint_default.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/color-v23/abc_tint_btn_checkable.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/color-v23/abc_tint_btn_checkable.xml"
+    }
+]

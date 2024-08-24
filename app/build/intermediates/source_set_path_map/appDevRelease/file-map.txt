@@ -1,0 +1,63 @@
+com.abi.tech.ads.sample.app-coordinatorlayout-1.1.0-0 C:\Users\Chinh\.gradle\caches\transforms-3\00981f7def581a4db91a4c014c749a6c\transformed\coordinatorlayout-1.1.0\res
+com.abi.tech.ads.sample.app-jetified-playercommon-16.3.51-1 C:\Users\Chinh\.gradle\caches\transforms-3\05a30a863c84c786250f63ed3ef13d66\transformed\jetified-playercommon-16.3.51\res
+com.abi.tech.ads.sample.app-jetified-facebook-login-15.2.0-2 C:\Users\Chinh\.gradle\caches\transforms-3\0bd44a2f62e2381981114bfca9bceeec\transformed\jetified-facebook-login-15.2.0\res
+com.abi.tech.ads.sample.app-lifecycle-viewmodel-2.5.1-3 C:\Users\Chinh\.gradle\caches\transforms-3\0d11ac073a8144d756a22073aea57bf2\transformed\lifecycle-viewmodel-2.5.1\res
+com.abi.tech.ads.sample.app-jetified-play-services-ads-lite-21.4.0-4 C:\Users\Chinh\.gradle\caches\transforms-3\0d766fa79b71f4d8bb2ce8e70771056f\transformed\jetified-play-services-ads-lite-21.4.0\res
+com.abi.tech.ads.sample.app-jetified-ssp-android-1.1.0-5 C:\Users\Chinh\.gradle\caches\transforms-3\11eec2df36023ab6a876af3562a3fcf4\transformed\jetified-ssp-android-1.1.0\res
+com.abi.tech.ads.sample.app-fragment-1.3.6-6 C:\Users\Chinh\.gradle\caches\transforms-3\1a62e6516e1eb03668ed0d9d624e95e0\transformed\fragment-1.3.6\res
+com.abi.tech.ads.sample.app-transition-1.2.0-7 C:\Users\Chinh\.gradle\caches\transforms-3\1f286206caee96d3c2733e991ae5400a\transformed\transition-1.2.0\res
+com.abi.tech.ads.sample.app-material-1.2.1-8 C:\Users\Chinh\.gradle\caches\transforms-3\237360767d6bcc2ed717e4fa3fa285ec\transformed\material-1.2.1\res
+com.abi.tech.ads.sample.app-jetified-play-services-basement-18.3.0-9 C:\Users\Chinh\.gradle\caches\transforms-3\27d87ff59e9ce3a08f61193c2c46d3c5\transformed\jetified-play-services-basement-18.3.0\res
+com.abi.tech.ads.sample.app-jetified-same-16.3.51-10 C:\Users\Chinh\.gradle\caches\transforms-3\38e43bcfda708b978b3198f7bd49a013\transformed\jetified-same-16.3.51\res
+com.abi.tech.ads.sample.app-work-runtime-ktx-2.7.0-11 C:\Users\Chinh\.gradle\caches\transforms-3\3a9ff7d4448d73af666b3226b683bfb7\transformed\work-runtime-ktx-2.7.0\res
+com.abi.tech.ads.sample.app-jetified-savedstate-1.2.0-12 C:\Users\Chinh\.gradle\caches\transforms-3\3aa8c2d7da1a58b6697dac8db1ef1905\transformed\jetified-savedstate-1.2.0\res
+com.abi.tech.ads.sample.app-lifecycle-livedata-core-2.5.1-13 C:\Users\Chinh\.gradle\caches\transforms-3\3c6efd85464ac55ddd0db605974899ba\transformed\lifecycle-livedata-core-2.5.1\res
+com.abi.tech.ads.sample.app-lifecycle-runtime-2.5.1-14 C:\Users\Chinh\.gradle\caches\transforms-3\3e209287351843b181827c40fc1b5baf\transformed\lifecycle-runtime-2.5.1\res
+com.abi.tech.ads.sample.app-jetified-emoji2-1.2.0-15 C:\Users\Chinh\.gradle\caches\transforms-3\3eef8726154ca59ae76962b28ce9959b\transformed\jetified-emoji2-1.2.0\res
+com.abi.tech.ads.sample.app-jetified-sdp-android-1.1.1-16 C:\Users\Chinh\.gradle\caches\transforms-3\416ca4f2788440a6c7be9c8a9fbeaabf\transformed\jetified-sdp-android-1.1.1\res
+com.abi.tech.ads.sample.app-jetified-shimmer-0.5.0-17 C:\Users\Chinh\.gradle\caches\transforms-3\4235532bb9037edf5334ed9a725b6529\transformed\jetified-shimmer-0.5.0\res
+com.abi.tech.ads.sample.app-jetified-dycreator-16.3.51-18 C:\Users\Chinh\.gradle\caches\transforms-3\431226c509a4e9cab8cf6f2734e63e0d\transformed\jetified-dycreator-16.3.51\res
+com.abi.tech.ads.sample.app-jetified-startup-runtime-1.1.1-19 C:\Users\Chinh\.gradle\caches\transforms-3\461d9829b9849dd5c5582301a0f2deac\transformed\jetified-startup-runtime-1.1.1\res
+com.abi.tech.ads.sample.app-media-1.0.0-20 C:\Users\Chinh\.gradle\caches\transforms-3\4af3cacc4d1d66e45c738aac47bd7545\transformed\media-1.0.0\res
+com.abi.tech.ads.sample.app-jetified-play-services-base-18.3.0-21 C:\Users\Chinh\.gradle\caches\transforms-3\50a2e255a850e9dac3adcd472a44d346\transformed\jetified-play-services-base-18.3.0\res
+com.abi.tech.ads.sample.app-jetified-facebook-common-15.2.0-22 C:\Users\Chinh\.gradle\caches\transforms-3\5588356ecf92eef7aec33964214c4d45\transformed\jetified-facebook-common-15.2.0\res
+com.abi.tech.ads.sample.app-jetified-videocommon-16.3.51-23 C:\Users\Chinh\.gradle\caches\transforms-3\5a63b123579178549612e84d6a5a75b4\transformed\jetified-videocommon-16.3.51\res
+com.abi.tech.ads.sample.app-jetified-facebook-share-15.2.0-24 C:\Users\Chinh\.gradle\caches\transforms-3\5cbdf0136486a136846411d2179755df\transformed\jetified-facebook-share-15.2.0\res
+com.abi.tech.ads.sample.app-jetified-lifecycle-process-2.4.1-25 C:\Users\Chinh\.gradle\caches\transforms-3\5fdfd548e9a25d7e97d2b6774f075b04\transformed\jetified-lifecycle-process-2.4.1\res
+com.abi.tech.ads.sample.app-appcompat-1.6.1-26 C:\Users\Chinh\.gradle\caches\transforms-3\6547e624e588fddb60d9adbc7cd27ad0\transformed\appcompat-1.6.1\res
+com.abi.tech.ads.sample.app-jetified-appcompat-resources-1.6.1-27 C:\Users\Chinh\.gradle\caches\transforms-3\6963d4ac52d1ed09185c408856a55f3a\transformed\jetified-appcompat-resources-1.6.1\res
+com.abi.tech.ads.sample.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-28 C:\Users\Chinh\.gradle\caches\transforms-3\6bd5d9a6c2ed50fba6b06e25fa7dab35\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.abi.tech.ads.sample.app-jetified-emoji2-views-helper-1.2.0-29 C:\Users\Chinh\.gradle\caches\transforms-3\6f3b5088dcf51852b48309434a8085c0\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.abi.tech.ads.sample.app-jetified-applovin-sdk-11.5.1-30 C:\Users\Chinh\.gradle\caches\transforms-3\7af88a9572f5e00e05ac6a26d699421d\transformed\jetified-applovin-sdk-11.5.1\res
+com.abi.tech.ads.sample.app-jetified-reward-16.3.51-31 C:\Users\Chinh\.gradle\caches\transforms-3\885f603db995d2bcf00f409fff77d924\transformed\jetified-reward-16.3.51\res
+com.abi.tech.ads.sample.app-jetified-firebase-common-20.2.0-32 C:\Users\Chinh\.gradle\caches\transforms-3\8aed9cd46a6aaf00aee3e1e4ca97dd2f\transformed\jetified-firebase-common-20.2.0\res
+com.abi.tech.ads.sample.app-jetified-mbnative-16.3.51-33 C:\Users\Chinh\.gradle\caches\transforms-3\9041c28df7f70c9832baf7a8488865cd\transformed\jetified-mbnative-16.3.51\res
+com.abi.tech.ads.sample.app-core-1.9.0-34 C:\Users\Chinh\.gradle\caches\transforms-3\9c73b06cfd4ef2fc06f7f39308dfc88a\transformed\core-1.9.0\res
+com.abi.tech.ads.sample.app-work-runtime-2.7.0-35 C:\Users\Chinh\.gradle\caches\transforms-3\a4edd79f5854c9b04b8b744ca16d8ade\transformed\work-runtime-2.7.0\res
+com.abi.tech.ads.sample.app-jetified-videojs-16.3.51-36 C:\Users\Chinh\.gradle\caches\transforms-3\a9e9d4e2ed1ca2412b7030e8b9ed59ad\transformed\jetified-videojs-16.3.51\res
+com.abi.tech.ads.sample.app-recyclerview-1.1.0-37 C:\Users\Chinh\.gradle\caches\transforms-3\ad995a6e93771e204c660e4c0fcd55d0\transformed\recyclerview-1.1.0\res
+com.abi.tech.ads.sample.app-jetified-nativeex-16.3.51-38 C:\Users\Chinh\.gradle\caches\transforms-3\b41577154f7d9ae579fed1d5dd79f990\transformed\jetified-nativeex-16.3.51\res
+com.abi.tech.ads.sample.app-jetified-core-ktx-1.9.0-39 C:\Users\Chinh\.gradle\caches\transforms-3\b5fe4cf709715ff5ce77a0cddb5d81b3\transformed\jetified-core-ktx-1.9.0\res
+com.abi.tech.ads.sample.app-constraintlayout-2.0.4-40 C:\Users\Chinh\.gradle\caches\transforms-3\b7f18cc46501285b118a3a8a520f6899\transformed\constraintlayout-2.0.4\res
+com.abi.tech.ads.sample.app-jetified-annotation-experimental-1.3.0-41 C:\Users\Chinh\.gradle\caches\transforms-3\bc93d9cd3a4005d2a359d1c91baeace4\transformed\jetified-annotation-experimental-1.3.0\res
+com.abi.tech.ads.sample.app-jetified-activity-1.6.0-42 C:\Users\Chinh\.gradle\caches\transforms-3\bcd4d86dea239e9774779a500713e453\transformed\jetified-activity-1.6.0\res
+com.abi.tech.ads.sample.app-jetified-billing-7.0.0-43 C:\Users\Chinh\.gradle\caches\transforms-3\c1096022f6ef64a7edad9b9871a492e7\transformed\jetified-billing-7.0.0\res
+com.abi.tech.ads.sample.app-jetified-play-services-ads-21.4.0-44 C:\Users\Chinh\.gradle\caches\transforms-3\d1d99c93a910fa8564992a2195c6b87d\transformed\jetified-play-services-ads-21.4.0\res
+com.abi.tech.ads.sample.app-jetified-viewpager2-1.0.0-45 C:\Users\Chinh\.gradle\caches\transforms-3\d236b5173251ff0fb0cf49cb7aacc748\transformed\jetified-viewpager2-1.0.0\res
+com.abi.tech.ads.sample.app-cardview-1.0.0-46 C:\Users\Chinh\.gradle\caches\transforms-3\d37382ec9b330ae12561add87265db06\transformed\cardview-1.0.0\res
+com.abi.tech.ads.sample.app-jetified-mbjscommon-16.3.51-47 C:\Users\Chinh\.gradle\caches\transforms-3\d5eba453ecfa5f52ad031364612ab3e6\transformed\jetified-mbjscommon-16.3.51\res
+com.abi.tech.ads.sample.app-jetified-mbbanner-16.3.51-48 C:\Users\Chinh\.gradle\caches\transforms-3\e2395258ce4ca7f084c45803f1a58607\transformed\jetified-mbbanner-16.3.51\res
+com.abi.tech.ads.sample.app-jetified-facebook-messenger-15.2.0-49 C:\Users\Chinh\.gradle\caches\transforms-3\e58ca292dddca5ee86ded2e64c694849\transformed\jetified-facebook-messenger-15.2.0\res
+com.abi.tech.ads.sample.app-browser-1.4.0-50 C:\Users\Chinh\.gradle\caches\transforms-3\ea99ad2dfd81f32666ff484bc3119e95\transformed\browser-1.4.0\res
+com.abi.tech.ads.sample.app-jetified-lottie-6.3.0-51 C:\Users\Chinh\.gradle\caches\transforms-3\f5e7e242d4da6e6ae4854a476a5d86c8\transformed\jetified-lottie-6.3.0\res
+com.abi.tech.ads.sample.app-packaged_res-52 D:\BBL\Modul Ads\AbiTechModulAds\ads\build\intermediates\packaged_res\release
+com.abi.tech.ads.sample.app-appDev-53 D:\BBL\Modul Ads\AbiTechModulAds\app\build\generated\res\pngs\appDev\release
+com.abi.tech.ads.sample.app-appDev-54 D:\BBL\Modul Ads\AbiTechModulAds\app\build\generated\res\resValues\appDev\release
+com.abi.tech.ads.sample.app-appDev-55 D:\BBL\Modul Ads\AbiTechModulAds\app\build\generated\res\rs\appDev\release
+com.abi.tech.ads.sample.app-mergeAppDevReleaseResources-56 D:\BBL\Modul Ads\AbiTechModulAds\app\build\intermediates\incremental\appDevRelease\mergeAppDevReleaseResources\merged.dir
+com.abi.tech.ads.sample.app-mergeAppDevReleaseResources-57 D:\BBL\Modul Ads\AbiTechModulAds\app\build\intermediates\incremental\appDevRelease\mergeAppDevReleaseResources\stripped.dir
+com.abi.tech.ads.sample.app-merged_res-58 D:\BBL\Modul Ads\AbiTechModulAds\app\build\intermediates\merged_res\appDevRelease
+com.abi.tech.ads.sample.app-appDev-59 D:\BBL\Modul Ads\AbiTechModulAds\app\src\appDev\res
+com.abi.tech.ads.sample.app-appDevRelease-60 D:\BBL\Modul Ads\AbiTechModulAds\app\src\appDevRelease\res
+com.abi.tech.ads.sample.app-main-61 D:\BBL\Modul Ads\AbiTechModulAds\app\src\main\res
+com.abi.tech.ads.sample.app-release-62 D:\BBL\Modul Ads\AbiTechModulAds\app\src\release\res

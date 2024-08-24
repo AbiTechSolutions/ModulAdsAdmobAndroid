@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    }
+]

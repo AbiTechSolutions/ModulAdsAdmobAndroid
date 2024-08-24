@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/raw/com_android_billingclient_heterodyne_info",
+        "source": "com.abi.tech.ads-jetified-billing-7.0.0-42:/raw/com_android_billingclient_heterodyne_info"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/raw/resume_loading.json",
+        "source": "com.abi.tech.ads-main-56:/raw/resume_loading.json"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/raw/omsdk_v_1_0.js",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/raw/omsdk_v_1_0.js"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/raw/firebase_common_keep.xml",
+        "source": "com.abi.tech.ads-jetified-firebase-common-20.2.0-31:/raw/firebase_common_keep.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/raw/com_android_billingclient_registration_info.binarypb",
+        "source": "com.abi.tech.ads-jetified-billing-7.0.0-42:/raw/com_android_billingclient_registration_info.binarypb"
+    }
+]

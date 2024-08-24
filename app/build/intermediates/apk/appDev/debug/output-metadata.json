@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.abi.tech.ads.sample",
+  "variantName": "appDevDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "outputFile": "BLabModuleAds_v1.0.0(1)_Aug.24.2024-appDev-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

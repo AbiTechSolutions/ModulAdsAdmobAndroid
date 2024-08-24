@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.abi.tech.ads-merged_res-55:/values-de-rDE/values-de-rDE.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\431226c509a4e9cab8cf6f2734e63e0d\\transformed\\jetified-dycreator-16.3.51\\res\\values-de-rDE\\values-de-rDE.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,75",
+                        "endOffsets": "111,187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.abi.tech.ads-mergeReleaseResources-53:/values-de-rDE/values-de-rDE.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\431226c509a4e9cab8cf6f2734e63e0d\\transformed\\jetified-dycreator-16.3.51\\res\\values-de-rDE\\values-de-rDE.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,116",
+                        "endColumns": "60,75",
+                        "endOffsets": "111,187"
+                    }
+                }
+            ]
+        }
+    ]
+}

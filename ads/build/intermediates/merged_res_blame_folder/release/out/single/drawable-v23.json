@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-v23/mtrl_popupmenu_background_dark.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/drawable-v23/mtrl_popupmenu_background_dark.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-v23/abc_control_background_material.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/drawable-v23/abc_control_background_material.xml"
+    }
+]

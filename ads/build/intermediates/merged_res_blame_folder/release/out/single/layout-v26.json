@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-v26/abc_screen_toolbar.xml",
+        "source": "com.abi.tech.ads-appcompat-1.6.1-25:/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-v26/mtrl_calendar_month.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/layout-v26/mtrl_calendar_month.xml"
+    }
+]

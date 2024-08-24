@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevReleaseResources-56:/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\38e43bcfda708b978b3198f7bd49a013\\transformed\\jetified-same-16.3.51\\res\\values-v27\\values-v27.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,158",
+                        "endLines": "2,4",
+                        "endColumns": "102,12",
+                        "endOffsets": "153,266"
+                    }
+                }
+            ]
+        }
+    ]
+}

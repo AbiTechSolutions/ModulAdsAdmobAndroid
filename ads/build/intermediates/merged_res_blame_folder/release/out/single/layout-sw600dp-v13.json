@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-sw600dp-v13/mtrl_layout_snackbar.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

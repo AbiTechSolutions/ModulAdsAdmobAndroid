@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "com.abi.tech.ads-fragment-1.3.6-6:/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "com.abi.tech.ads-material-1.2.1-8:/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    }
+]

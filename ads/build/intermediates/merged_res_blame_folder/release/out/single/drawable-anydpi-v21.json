@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_fullscreen_enter.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_fullscreen_enter.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_next.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_next.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_speed.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_speed.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_default_album_image.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_default_album_image.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_fullscreen_exit.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_fullscreen_exit.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_ic_x_mark.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_ic_x_mark.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_ic_share.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_ic_share.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_rewind.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_rewind.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_check.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_check.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_rewind.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_rewind.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_stop.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_stop.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_ic_check_mark_borderless.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_ic_check_mark_borderless.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_play_circle_filled.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_play_circle_filled.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_skip_next.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_skip_next.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_fullscreen_exit.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_fullscreen_exit.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_chevron_right.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_chevron_right.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_shuffle_off.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_shuffle_off.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_subtitle_off.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_subtitle_off.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_audiotrack.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_audiotrack.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_repeat_all.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_repeat_all.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_fullscreen_enter.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_fullscreen_enter.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_subtitle_on.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_subtitle_on.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_repeat_one.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_repeat_one.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_ic_disclosure_arrow.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_ic_disclosure_arrow.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_pause.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_pause.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_forward.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_forward.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_previous.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_previous.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_chevron_left.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_chevron_left.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_edit_mode_logo.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_edit_mode_logo.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_ic_check_mark_bordered.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_ic_check_mark_bordered.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_ic_warning.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_ic_warning.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_settings.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_settings.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_shuffle_on.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_shuffle_on.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_skip_previous.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_skip_previous.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_play.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_play.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_ic_pause_circle_filled.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_ic_pause_circle_filled.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_fastforward.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_fastforward.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/drawable-anydpi-v21/applovin_exo_icon_repeat_off.xml",
+        "source": "com.abi.tech.ads-jetified-applovin-sdk-11.5.1-29:/drawable-anydpi-v21/applovin_exo_icon_repeat_off.xml"
+    }
+]

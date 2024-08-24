@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.abi.tech.ads-core-1.9.0-33:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.abi.tech.ads-core-1.9.0-33:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-v21/notification_action.xml",
+        "source": "com.abi.tech.ads-core-1.9.0-33:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.abi.tech.ads-merged_res-55:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.abi.tech.ads-core-1.9.0-33:/layout-v21/notification_action_tombstone.xml"
+    }
+]
