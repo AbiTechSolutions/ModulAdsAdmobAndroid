@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-de-rDE/values-de-rDE.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-de-rDE/values-de-rDE.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\431226c509a4e9cab8cf6f2734e63e0d\\transformed\\jetified-dycreator-16.3.51\\res\\values-de-rDE\\values-de-rDE.xml",
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\b0e920d5173436477bca5c8ee1009603\\transformed\\jetified-dycreator-16.8.31\\res\\values-de-rDE\\values-de-rDE.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

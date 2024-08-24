@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="applovin_agree_message">如果您选择开始使用我们的应用，请点击\"继续\"</string>
+    <string name="applovin_alt_privacy_policy_text"/>
+    <string name="applovin_continue_button_text">继续</string>
+    <string name="applovin_pp_and_tos_title">使用%s之前, 您必须同意我们的服务条款，并确认您已经阅读并知悉我们的隐私政策。</string>
+    <string name="applovin_pp_title">使用%s之前, 您必须确认您已经阅读并知悉我们的隐私政策.</string>
+    <string name="applovin_privacy_policy_text">隐私政策</string>
+    <string name="applovin_terms_of_service_text">服务条款</string>
+    <string name="applovin_terms_of_use_text">使用条款</string>
     <string name="mbridge_cm_feedback_btn_text">反馈</string>
     <string name="mbridge_cm_feedback_dialog_close_close">关闭</string>
     <string name="mbridge_cm_feedback_dialog_close_submit">提交</string>
-    <string name="mbridge_cm_feedback_dialog_content_balck_screen">黑白屏</string>
-    <string name="mbridge_cm_feedback_dialog_content_cnr">无法点击</string>
-    <string name="mbridge_cm_feedback_dialog_content_other">其他</string>
-    <string name="mbridge_cm_feedback_dialog_content_stuck">卡顿</string>
-    <string name="mbridge_cm_feedback_dialog_title">选择反馈内容</string>
+    <string name="mbridge_cm_feedback_dialog_content_fraud">虚假诈欺</string>
+    <string name="mbridge_cm_feedback_dialog_content_misleading">诱导点击</string>
+    <string name="mbridge_cm_feedback_dialog_content_not_play">内容无法正常展示</string>
+    <string name="mbridge_cm_feedback_dialog_content_other">其他问题</string>
+    <string name="mbridge_cm_feedback_dialog_content_por_violence">黄色暴力</string>
+    <string name="mbridge_cm_feedback_dialog_content_sound_problems">声音问题</string>
+    <string name="mbridge_cm_feedback_dialog_privacy_des">Mintegral隐私政策</string>
+    <string name="mbridge_cm_feedback_dialog_submit_notice">感谢您的反馈！</string>
+    <string name="mbridge_cm_feedback_dialog_title">用户反馈</string>
     <string name="mbridge_reward_appdesc">app desc</string>
     <string name="mbridge_reward_apptitle">app title</string>
     <string name="mbridge_reward_clickable_cta_btntext">Play Game</string>
@@ -17,5 +29,9 @@
     <string name="mbridge_reward_install">Install Now</string>
     <string name="mbridge_reward_video_view_reward_time_complete">已获得奖励</string>
     <string name="mbridge_reward_video_view_reward_time_left">s后即可获得奖励</string>
+    <string name="mbridge_reward_video_view_reward_time_left_skip_time">秒后可跳过</string>
     <string name="mbridge_reward_viewed_text_str">您浏览过的内容</string>
+    <string name="mbridge_splash_count_time_can_skip">点击跳过|</string>
+    <string name="mbridge_splash_count_time_can_skip_not">后自动关闭</string>
+    <string name="mbridge_splash_count_time_can_skip_s">s</string>
 </resources>

@@ -52,10 +52,14 @@
     <string name="native_body">Негізгі мәтіні</string>
     <string name="native_headline">Тақырыбы</string>
     <string name="native_media_view">Медиа көрінісі</string>
-    <string name="offline_notification_text">Жарнаманы ашу үшін түртіңіз.</string>
-    <string name="offline_notification_title">Офлайн режимге өткенде, сақталған жарнамаңызды көріңіз</string>
+    <string name="notifications_permission_confirm">Рұқсат беру</string>
+    <string name="notifications_permission_decline">Рұқсат бермеу</string>
+    <string name="notifications_permission_title">Қолданбаның хабарландырулар жіберуіне рұқсат берілсін бе?</string>
+    <string name="offline_dialog_image_description">Белгіше</string>
+    <string name="offline_dialog_text">Қызығушылық танытқаныңыз үшін рақмет.\nСіз желіге қайта қосылған кезде, қосымша ақпарат жібереміз.</string>
+    <string name="offline_notification_title">Желіге қайта қосылдыңыз. Тоқтаған жеріңізден қайта жалғастырайық.</string>
+    <string name="offline_notification_title_with_advertiser">Желіге қайта қосылдыңыз. %s туралы ақпарат алуды жалғастырыңыз.</string>
     <string name="offline_opt_in_confirm">Жарайды</string>
-    <string name="offline_opt_in_confirmation">Онлайн режимге оралғанда, сілтемесі бар хабарландыру аласыз.</string>
     <string name="offline_opt_in_decline">Жоқ, рақмет</string>
     <string name="offline_opt_in_message">Сізге жарнама беруші сайтына сілтемесі бар хабарландыру жібереміз.</string>
     <string name="offline_opt_in_title">Онлайн режимге оралғанда, жарнаманы ашыңыз</string>
@@ -68,4 +72,5 @@
     <string name="s7">Сынақ жарнама</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Іздеу"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="watermark_label_prefix">AdMob – </string>
 </resources>

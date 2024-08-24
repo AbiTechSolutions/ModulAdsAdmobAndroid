@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-v24/values-v24.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-v24/values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\6547e624e588fddb60d9adbc7cd27ad0\\transformed\\appcompat-1.6.1\\res\\values-v24\\values-v24.xml",

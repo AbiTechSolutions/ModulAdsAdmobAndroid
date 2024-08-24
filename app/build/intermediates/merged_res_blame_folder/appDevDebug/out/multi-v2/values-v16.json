@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-v16/values-v16.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\9c73b06cfd4ef2fc06f7f39308dfc88a\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",

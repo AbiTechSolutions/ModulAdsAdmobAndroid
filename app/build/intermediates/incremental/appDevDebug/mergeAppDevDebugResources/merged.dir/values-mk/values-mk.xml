@@ -52,10 +52,14 @@
     <string name="native_body">Главен текст</string>
     <string name="native_headline">Наслов</string>
     <string name="native_media_view">Преглед на аудиовизуелни содржини</string>
-    <string name="offline_notification_text">Допрете за да ја отворите рекламата</string>
-    <string name="offline_notification_title">Прегледајте ја рекламата што ја зачувавте кога бевте офлајн</string>
+    <string name="notifications_permission_confirm">Дозволи</string>
+    <string name="notifications_permission_decline">Не дозволувај</string>
+    <string name="notifications_permission_title">Дозволи апликацијата да ти испраќа известувања?</string>
+    <string name="offline_dialog_image_description">Икона</string>
+    <string name="offline_dialog_text">Фала за интересот.\nЌе споделиме повеќе штом ќе бидете онлајн повторно.</string>
+    <string name="offline_notification_title">Повторно сте онлајн! Да продолжиме каде што застанавме</string>
+    <string name="offline_notification_title_with_advertiser">Повторно сте онлајн! Продолжете и дознајте повеќе за %s</string>
     <string name="offline_opt_in_confirm">Во ред</string>
-    <string name="offline_opt_in_confirmation">Ќе добиете известување со линк кога ќе бидете повторно онлајн</string>
     <string name="offline_opt_in_decline">Не, фала</string>
     <string name="offline_opt_in_message">Ќе ви испратиме известување со линк до сајтот на огласувачот.</string>
     <string name="offline_opt_in_title">Отворете ја рекламата кога ќе бидете повторно онлајн.</string>
@@ -68,4 +72,5 @@
     <string name="s7">Тестирај ја рекламата</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Пребарај"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="watermark_label_prefix">AdMob - </string>
 </resources>

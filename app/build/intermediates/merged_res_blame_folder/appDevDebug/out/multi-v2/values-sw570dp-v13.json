@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-sw570dp-v13/values-sw570dp-v13.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-sw570dp-v13/values-sw570dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\11eec2df36023ab6a876af3562a3fcf4\\transformed\\jetified-ssp-android-1.1.0\\res\\values-sw570dp-v13\\values-sw570dp-v13.xml",

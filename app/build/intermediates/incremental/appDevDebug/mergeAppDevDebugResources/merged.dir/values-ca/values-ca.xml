@@ -52,10 +52,14 @@
     <string name="native_body">Cos</string>
     <string name="native_headline">Títol</string>
     <string name="native_media_view">Visualització del contingut multimèdia</string>
-    <string name="offline_notification_text">Toca per obrir l\'anunci</string>
-    <string name="offline_notification_title">Mira l\'anunci que has desat sense connexió</string>
+    <string name="notifications_permission_confirm">Permet</string>
+    <string name="notifications_permission_decline">No permetis</string>
+    <string name="notifications_permission_title">Vols permetre que l\'aplicació t\'enviï notificacions?</string>
+    <string name="offline_dialog_image_description">Icona</string>
+    <string name="offline_dialog_text">Gràcies pel teu interès.\nEt proporcionarem més informació quan tornis a estar en línia.</string>
+    <string name="offline_notification_title">Tornes a estar en línia. Continua a partir del punt on ho has deixat.</string>
+    <string name="offline_notification_title_with_advertiser">Tornes a estar en línia. Descobreix més sobre %s.</string>
     <string name="offline_opt_in_confirm">D\'acord</string>
-    <string name="offline_opt_in_confirmation">Rebràs una notificació amb l\'enllaç quan tornis a tenir connexió</string>
     <string name="offline_opt_in_decline">No, gràcies</string>
     <string name="offline_opt_in_message">T\'enviarem una notificació amb un enllaç al lloc web de l\'anunciant.</string>
     <string name="offline_opt_in_title">Obre l\'anunci quan tornis a tenir connexió.</string>
@@ -68,4 +72,5 @@
     <string name="s7">Anunci de prova</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="watermark_label_prefix">AdMob - </string>
 </resources>

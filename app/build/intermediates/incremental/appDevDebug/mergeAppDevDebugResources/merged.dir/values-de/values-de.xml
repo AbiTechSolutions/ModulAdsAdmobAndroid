@@ -27,6 +27,14 @@
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
     <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="applovin_agree_message">Bitte drücke auf \"Weiter\" um unsere App zu benutzen.</string>
+    <string name="applovin_alt_privacy_policy_text"/>
+    <string name="applovin_continue_button_text">Weiter</string>
+    <string name="applovin_pp_and_tos_title">Um %s zu benutzen, musst du den AGB und der Datenschutzerklärung des Entwicklers dieser App zustimmen.</string>
+    <string name="applovin_pp_title">Um %s zu benutzen, musst du bestätigen, dass du unsere Datenschutzerklärung gelesen und akzeptiert hast.</string>
+    <string name="applovin_privacy_policy_text">Datenschutzerklärung</string>
+    <string name="applovin_terms_of_service_text">AGB</string>
+    <string name="applovin_terms_of_use_text">AGB</string>
     <string gender="unknown" name="com_facebook_device_auth_instructions">Gehe zu &lt;b>facebook.com/device&lt;/b> und gib den oben angezeigten Code ein.</string>
     <string gender="unknown" name="com_facebook_image_download_unknown_error">Unerwarteter Fehler beim Herunterladen eines Bildes.</string>
     <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView-Anmeldung erfordert INTERNET-Berechtigung</string>
@@ -75,10 +83,14 @@
     <string name="native_body">Text</string>
     <string name="native_headline">Anzeigentitel</string>
     <string name="native_media_view">Medienansicht</string>
-    <string name="offline_notification_text">Tippen, um die Werbung zu öffnen</string>
-    <string name="offline_notification_title">Werbung anzeigen, die du gespeichert hast, während du offline warst</string>
+    <string name="notifications_permission_confirm">Zulassen</string>
+    <string name="notifications_permission_decline">Nicht zulassen</string>
+    <string name="notifications_permission_title">App-Benachrichtigungen zulassen?</string>
+    <string name="offline_dialog_image_description">Symbol</string>
+    <string name="offline_dialog_text">Vielen Dank für dein Interesse.\nDu erhältst weitere Informationen, sobald du wieder online bist.</string>
+    <string name="offline_notification_title">Du bist wieder online! Machen wir da weiter, wo wir aufgehört haben</string>
+    <string name="offline_notification_title_with_advertiser">Du bist wieder online! Weitere Informationen zu %s</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Du bekommst eine Benachrichtigung mit dem Link, wenn du wieder online bist</string>
     <string name="offline_opt_in_decline">Nein danke</string>
     <string name="offline_opt_in_message">Wir senden dir eine Benachrichtigung mit einem Link zur Website des Werbetreibenden.</string>
     <string name="offline_opt_in_title">Werbung öffnen, wenn du wieder online bist.</string>
@@ -91,4 +103,5 @@
     <string name="s7">Testanzeige</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="watermark_label_prefix">AdMob – </string>
 </resources>

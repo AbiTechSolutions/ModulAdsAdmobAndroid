@@ -75,10 +75,14 @@
     <string name="native_body">Törzs</string>
     <string name="native_headline">Címsor</string>
     <string name="native_media_view">Médianézet</string>
-    <string name="offline_notification_text">Koppintson a hirdetés megnyitásához</string>
-    <string name="offline_notification_title">Az offline mentett hirdetés megtekintése</string>
+    <string name="notifications_permission_confirm">Engedélyezés</string>
+    <string name="notifications_permission_decline">Tiltás</string>
+    <string name="notifications_permission_title">Engedélyezi, hogy az alkalmazás értesítéseket küldjön Önnek?</string>
+    <string name="offline_dialog_image_description">Ikon</string>
+    <string name="offline_dialog_text">Köszönjük érdeklődését!\nAmint újra online lesz, bővebb tájékoztatást fog kapni.</string>
+    <string name="offline_notification_title">Újra van internetkapcsolata. Folytassuk onnan, ahol abbahagytuk.</string>
+    <string name="offline_notification_title_with_advertiser">Újra van internetkapcsolata. Ismerje meg részletesebben a következőt: %s.</string>
     <string name="offline_opt_in_confirm">OK</string>
-    <string name="offline_opt_in_confirmation">Linket tartalmazó értesítést kap, amikor újra online lesz</string>
     <string name="offline_opt_in_decline">Nem</string>
     <string name="offline_opt_in_message">Értesítést küldünk, amelyben a hirdető webhelyére mutató link szerepel.</string>
     <string name="offline_opt_in_title">Megnyithatja a hirdetést akkor, amikor újra online lesz.</string>
@@ -91,4 +95,5 @@
     <string name="s7">Teszthirdetés</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Keresés"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="watermark_label_prefix">AdMob – </string>
 </resources>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\237360767d6bcc2ed717e4fa3fa285ec\\transformed\\material-1.2.1\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",

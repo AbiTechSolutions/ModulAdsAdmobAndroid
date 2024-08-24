@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-v21/values-v21.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\9c73b06cfd4ef2fc06f7f39308dfc88a\\transformed\\core-1.9.0\\res\\values-v21\\values-v21.xml",
@@ -20,6 +20,25 @@
                         "endLines": "2,13,14,15,325,326,333,337,385,390",
                         "endColumns": "117,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "168,1079,1146,1210,23809,23935,24392,24688,27788,28140"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\4843d9a91328bf98fd633df2c9e1578e\\transformed\\jetified-applovin-sdk-12.6.0\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,9,12,19,25,28",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,681,939,1446,1925,2179",
+                        "endLines": "8,11,18,24,27,33",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "676,934,1441,1920,2174,2660"
+                    },
+                    "to": {
+                        "startLines": "402,409,412,419,425,428",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "28822,29448,29706,30213,30692,30946",
+                        "endLines": "408,411,418,424,427,433",
+                        "endColumns": "12,12,12,12,12,12",
+                        "endOffsets": "29443,29701,30208,30687,30941,31427"
                     }
                 },
                 {
@@ -58,25 +77,6 @@
                         "endLines": "329,332,336,340",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "24103,24266,24560,24855"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\7af88a9572f5e00e05ac6a26d699421d\\transformed\\jetified-applovin-sdk-11.5.1\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,8,11",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,534,788",
-                        "endLines": "7,10,15",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "529,783,1176"
-                    },
-                    "to": {
-                        "startLines": "402,408,411",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "28822,29301,29555",
-                        "endLines": "407,410,415",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "29296,29550,29943"
                     }
                 },
                 {

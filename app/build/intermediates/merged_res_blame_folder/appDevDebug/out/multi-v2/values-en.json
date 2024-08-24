@@ -1,16 +1,50 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-en/values-en.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-en/values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\431226c509a4e9cab8cf6f2734e63e0d\\transformed\\jetified-dycreator-16.3.51\\res\\values-en\\values-en.xml",
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\87758f4d3bc5d71f23155c34803ce5c9\\transformed\\jetified-mbsplash-16.8.31\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,208",
+                        "endColumns": "68,83,66",
+                        "endOffsets": "119,203,270"
+                    },
+                    "to": {
+                        "startLines": "12,13,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "931,1000,1084",
+                        "endColumns": "68,83,66",
+                        "endOffsets": "995,1079,1146"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\4843d9a91328bf98fd633df2c9e1578e\\transformed\\jetified-applovin-sdk-12.6.0\\res\\values-en\\values-en.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,224,291,449,581,653,736",
+                        "endColumns": "114,53,66,157,131,71,82,67",
+                        "endOffsets": "165,219,286,444,576,648,731,799"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\b0e920d5173436477bca5c8ee1009603\\transformed\\jetified-dycreator-16.8.31\\res\\values-en\\values-en.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
                         "startOffsets": "55,116",
                         "endColumns": "60,65",
                         "endOffsets": "111,177"
+                    },
+                    "to": {
+                        "startLines": "10,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "804,865",
+                        "endColumns": "60,65",
+                        "endOffsets": "860,926"
                     }
                 }
             ]

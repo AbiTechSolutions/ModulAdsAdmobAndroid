@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-56:/values-es-rES/values-es-rES.xml",
+            "outputFile": "com.abi.tech.ads.sample.app-mergeAppDevDebugResources-62:/values-es-rES/values-es-rES.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\0bd44a2f62e2381981114bfca9bceeec\\transformed\\jetified-facebook-login-15.2.0\\res\\values-es-rES\\values-es-rES.xml",
+                    "source": "C:\\Users\\Chinh\\.gradle\\caches\\transforms-3\\3d810f2601ad3ec0ffcc3ce2b5aeffd6\\transformed\\jetified-facebook-login-17.0.1\\res\\values-es-rES\\values-es-rES.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

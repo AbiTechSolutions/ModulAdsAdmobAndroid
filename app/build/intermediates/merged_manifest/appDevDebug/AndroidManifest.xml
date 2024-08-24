@@ -16,31 +16,39 @@
 
     <queries>
         <package android:name="com.facebook.katana" />
-        <!-- For browser content -->
+
+        <intent>
+            <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService" />
+        </intent>
+        <intent>
+            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+        </intent> <!-- For browser content -->
         <intent>
             <action android:name="android.intent.action.VIEW" />
 
             <category android:name="android.intent.category.BROWSABLE" />
 
             <data android:scheme="https" />
-        </intent> <!-- End of browser content -->
-        <!-- For CustomTabsService -->
-        <intent>
-            <action android:name="android.support.customtabs.action.CustomTabsService" />
         </intent>
         <intent>
-            <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE" />
+            <action android:name="android.intent.action.MAIN" />
         </intent>
         <intent>
-            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+            <action android:name="android.intent.action.VIEW" />
         </intent>
     </queries>
 
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Permissions required by Open Measurement SDK -->
+    <uses-permission android:name="com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE" /> <!-- Permissions required by Open Measurement SDK -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
     <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <permission
         android:name="com.abi.tech.ads.sample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -126,6 +134,32 @@
                     android:scheme="fbconnect" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false" />
+
+        <activity
+            android:name="com.vungle.ads.internal.ui.VungleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop" />
         <!--
          The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
          with the application context. This config is merged in with the host app's manifest,
@@ -154,21 +188,136 @@
                 <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
             </intent-filter>
         </receiver>
-        <receiver
-            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-            android:enabled="true"
-            android:exported="false" >
-        </receiver>
+
+        <provider
+            android:name="com.applovin.sdk.AppLovinInitProvider"
+            android:authorities="com.abi.tech.ads.sample.applovininitprovider"
+            android:exported="false"
+            android:initOrder="101" /> <!-- Init order is 101 so we're before Firebase/Google which uses 100 -->
+        <activity
+            android:name="com.applovin.adview.AppLovinFullscreenActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="behind"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.applovin.sdk.AppLovinWebViewActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" /> <!-- Hybrid Ad Activities -->
+        <activity
+            android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name="com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Mediation Debugger Activities -->
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerAdUnitWaterfallsListActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerCmpNetworksListActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerTcfConsentStatusesListActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerTcfInfoListActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerTcfStringActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerUnifiedFlowActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.mediation.MaxDebuggerWaterfallSegmentsActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.creative.MaxCreativeDebuggerActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme" />
+        <activity
+            android:name="com.applovin.creative.MaxCreativeDebuggerDisplayedAdActivity"
+            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+            android:theme="@style/com.applovin.creative.CreativeDebuggerActivity.Theme" /> <!-- Services -->
+        <service
+            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
+            android:exported="false"
+            android:stopWithTask="false" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/ga_ad_services_config" />
 
         <service
-            android:name="com.google.android.gms.measurement.AppMeasurementService"
-            android:enabled="true"
-            android:exported="false" />
-        <service
-            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-            android:enabled="true"
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="7.0.0" />
+
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:exported="false"
-            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
@@ -190,6 +339,44 @@
             android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:exported="false" />
+        <activity
+            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <property
+            android:name="android.adservices.AD_SERVICES_CONFIG"
+            android:resource="@xml/gma_ad_services_config" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.abi.tech.ads.sample.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+            android:authorities="com.abi.tech.ads.sample.AudienceNetworkContentProvider"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -299,128 +486,6 @@
         </receiver>
 
         <service
-            android:name="com.google.firebase.components.ComponentDiscoveryService"
-            android:directBootAware="true"
-            android:exported="false" >
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-        </service>
-
-        <provider
-            android:name="com.applovin.sdk.AppLovinInitProvider"
-            android:authorities="com.abi.tech.ads.sample.applovininitprovider"
-            android:exported="false"
-            android:initOrder="101" /> <!-- Init order is 101 so we're before Firebase/Google which uses 100 -->
-        <activity
-            android:name="com.applovin.adview.AppLovinFullscreenActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:exported="false"
-            android:hardwareAccelerated="true"
-            android:launchMode="singleTop"
-            android:screenOrientation="behind" />
-        <activity
-            android:name="com.applovin.sdk.AppLovinWebViewActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" /> <!-- Hybrid Ad Activities -->
-        <activity
-            android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" />
-        <activity
-            android:name="com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" /> <!-- Mediation Debugger Activities -->
-        <activity
-            android:name="com.applovin.mediation.MaxDebuggerActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-        <activity
-            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-        <activity
-            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-        <activity
-            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-        <activity
-            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-        <activity
-            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
-        <activity
-            android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity"
-            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" /> <!-- Services -->
-        <service
-            android:name="com.applovin.impl.sdk.utils.AppKilledService"
-            android:exported="false"
-            android:stopWithTask="false" />
-        <service
-            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
-            android:exported="false"
-            android:stopWithTask="false" />
-
-        <meta-data
-            android:name="com.google.android.play.billingclient.version"
-            android:value="7.0.0" />
-
-        <activity
-            android:name="com.android.billingclient.api.ProxyBillingActivity"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
-            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.abi.tech.ads.sample.firebaseinitprovider"
-            android:directBootAware="true"
-            android:exported="false"
-            android:initOrder="100" />
-
-        <activity
-            android:name="com.facebook.ads.AudienceNetworkActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <provider
-            android:name="com.facebook.ads.AudienceNetworkContentProvider"
-            android:authorities="com.abi.tech.ads.sample.AudienceNetworkContentProvider"
-            android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
-
-        <activity
-            android:name="com.vungle.warren.ui.VungleActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
-            android:launchMode="singleTop"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-
-        <provider
-            android:name="com.vungle.warren.utility.VungleProvider"
-            android:authorities="com.abi.tech.ads.sample.vungle-provider"
-            android:exported="false" />
-
-        <service
             android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
             android:exported="false" >
             <meta-data
@@ -446,13 +511,17 @@
             android:name="com.mbridge.msdk.reward.player.MBRewardVideoActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.mbridge.msdk.newreward.player.MBRewardVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- mbridge base activity -->
         <activity
             android:name="com.mbridge.msdk.activity.MBCommonActivity"
             android:configChanges="keyboard|orientation"
             android:excludeFromRecents="true"
             android:exported="false"
-            android:screenOrientation="portrait"
             android:theme="@style/mbridge_transparent_common_activity_style" /> <!-- integration rewardVideo if aggregation nativeX pls add start -->
         <activity android:name="com.mbridge.msdk.out.LoadingActivity" />
     </application>
