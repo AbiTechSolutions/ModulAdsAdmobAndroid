@@ -18,6 +18,7 @@ import com.abi.tech.ads.billing.AppPurchase;
 import com.abi.tech.ads.funtion.AdCallback;
 import com.abi.tech.ads.funtion.PurchaseListener;
 import com.abi.tech.ads.funtion.RewardCallback;
+import com.abi.tech.ads.util.AppConstant;
 import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.LoadAdError;
@@ -67,8 +68,9 @@ public class MainActivity extends AppCompatActivity {
         }, true));
 
         // Banner Ads
-        AbiAd.getInstance().loadBanner(this, BuildConfig.ad_banner);
-        /*AbiAd.getInstance().loadCollapsibleBanner(this, BuildConfig.ad_banner, AppConstant.CollapsibleGravity.BOTTOM, new AdCallback());*/
+//        AbiAd.getInstance().loadBanner(this, BuildConfig.ad_banner);
+
+        AbiAd.getInstance().loadCollapsibleBanner(this, "ca-app-pub-3940256099942544/2014213617", AppConstant.CollapsibleGravity.BOTTOM, new AdCallback());
 
         // Native Ads: Load And Show
         AbiAd.getInstance().loadNativeAd(this, BuildConfig.ad_native, R.layout.native_large, frAds, shimmerAds, new AdCallback() {

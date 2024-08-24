@@ -30,6 +30,7 @@ android {
             manifestPlaceholders = [ ad_app_id:"ca-app-pub-3940256099942544~3347511713"]
             buildConfigField "String", "ad_interstitial_splash", "\"ca-app-pub-3940256099942544/1033173712\""
             buildConfigField "String", "ad_banner", "\"ca-app-pub-3940256099942544/6300978111\""
+            buildConfigField "String", "ad_banner_collape", "\"ca-app-pub-3940256099942544/2014213617\""
             buildConfigField "String", "ad_reward", "\"ca-app-pub-3940256099942544/5224354917\""
             buildConfigField "String", "ad_reward_inter", "\"ca-app-pub-3940256099942544/5354046379\""
             buildConfigField "String", "ad_appopen_resume", "\"ca-app-pub-3940256099942544/3419835294\""
@@ -64,7 +65,8 @@ dependencies {
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation project(path: ':ads')
-    implementation 'com.google.android.gms:play-services-ads:21.4.0'
+//    implementation 'com.github.AbiTechSolutions:ModulAdsAdmobAndroid:+'
+    implementation 'com.google.android.gms:play-services-ads:23.3.0'
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation "androidx.core:core-ktx:1.8.0"

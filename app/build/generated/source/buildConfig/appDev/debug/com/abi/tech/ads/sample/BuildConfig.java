@@ -15,6 +15,8 @@ public final class BuildConfig {
   // Field from product flavor: appDev
   public static final String ad_banner = "ca-app-pub-3940256099942544/6300978111";
   // Field from product flavor: appDev
+  public static final String ad_banner_collape = "ca-app-pub-3940256099942544/2014213617";
+  // Field from product flavor: appDev
   public static final String ad_interstitial_splash = "ca-app-pub-3940256099942544/1033173712";
   // Field from product flavor: appDev
   public static final String ad_native = "ca-app-pub-3940256099942544/2247696110";
