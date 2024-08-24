@@ -1039,6 +1039,7 @@ public class Admob {
             containerShimmer.getLayoutParams().height = (int) (adSize.getHeight() * Resources.getSystem().getDisplayMetrics().density + 0.5f);
             adView.setAdSize(adSize);
             adView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
+
             adView.loadAd(getAdRequestForCollapsibleBanner(gravity));
             adView.setAdListener(new AdListener() {
 
@@ -1212,7 +1213,7 @@ public class Admob {
         AdRequest.Builder builder = new AdRequest.Builder();
         Bundle admobExtras = new Bundle();
         admobExtras.putString("collapsible", gravity);
-        admobExtras.putString("collapsible_request_id", UUID.randomUUID().toString());
+//        admobExtras.putString("collapsible_request_id", UUID.randomUUID().toString());
         builder.addNetworkExtrasBundle(AdMobAdapter.class, admobExtras);
         return builder.build();
     }
